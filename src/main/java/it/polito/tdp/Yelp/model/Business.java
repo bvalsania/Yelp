@@ -127,6 +127,8 @@ public class Business {
 	public void setStars(double stars) {
 		this.stars = stars;
 	}
+	
+	//sempre e solo la chiave primaria
 
 	@Override
 	public int hashCode() {
